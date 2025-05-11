@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap');
+
+:root
+{
+--fontepadrao: "Playwrite US Modern",cursive , sans-serif;
+
+
+
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -37,6 +49,7 @@ header p{
 }
 
 section{
+    font-family:var(--fontepadrao);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
@@ -44,7 +57,7 @@ section{
 }
 
 section.normal{
-    background-color: white;
+    background-color: rgb(246, 223, 201);
     color: black;
 
 
@@ -78,3 +91,5 @@ footer a{
 }
  footer a:hover{
     text-decoration: underline;}
+
+    
