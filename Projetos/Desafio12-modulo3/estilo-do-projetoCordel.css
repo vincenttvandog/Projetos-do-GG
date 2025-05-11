@@ -23,6 +23,9 @@ html, body{
 
 }
 
+
+
+
 header{
     background-color: black;
     color: white;
@@ -34,10 +37,14 @@ header h1{
     font-variant:small-caps;
 }
 
+
 header p{
     padding-bottom:50px ;
 
 }
+
+
+
 
  a{
     font-weight: bold;
@@ -47,6 +54,9 @@ header p{
  a:hover{
     text-decoration: underline;
 }
+
+
+
 
 section{
     font-family:var(--fontepadrao);
@@ -63,6 +73,12 @@ section.normal{
 
 }
 
+section.normal > p{
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.219);
+    padding: 30px
+
+}
+
 section.imagem{
     background-color: brown;
     color: white;
@@ -70,10 +86,35 @@ section.imagem{
 }
 
 section.imagem > p{
+    font-size: 1.2em;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.305) ;
     width:400px  ;
+    padding: 30px
 
 }
+
+section#img01{
+    background-image: url(../Desafio12-modulo3/imagens/background001.jpg);
+    background-size: 99vw;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 0px 5px 20px rgba(0, 0, 0, 0.641)
+   
+
+}
+
+section#img02{
+    background-image: url(../Desafio12-modulo3/imagens/background002.jpg);
+    background-size: cover;
+    box-shadow: inset 0px 5px 20px rgba(0, 0, 0, 0.641)
+
+
+}
+
+
+
+
 
 
 footer{
