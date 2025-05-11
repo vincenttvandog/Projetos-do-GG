@@ -75,14 +75,17 @@ section.normal{
 
 section.normal > p{
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.219);
-    padding: 30px
-
+    padding: 30px;
+    font-size: 1.2em;
 }
+
+
+
 
 section.imagem{
     background-color: brown;
     color: white;
-
+    background-attachment: fixed;
 }
 
 section.imagem > p{
