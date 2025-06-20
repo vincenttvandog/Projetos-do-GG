@@ -13,24 +13,53 @@
 
 
 html,body{
-    height:50vw;
+    height:80vw;
     width: 100vw;
     background-color: black;
 }
 
+iframe#tela{
+    position: relative;
+    top: 80px ;
+    left: 21px ;
+    width: 269px;
+    height: 470px;
+    
+
+}
 body{
-    background: url(pacote-d013/pacote-d013/imagens/fundo-madeira.jpg) no-repeat top center;
+    background: url(pacote-d013/pacote-d013/imagens/fundo-madeira.jpg) no-repeat ;
     background-size: cover;
     background-attachment: fixed;
     
 
 }
 
+
 main{
     height: 50vw;
     position: relative; 
     
 }
+
+section#redes > a > img{
+    width: 80px;
+    padding: 5px;
+    border-radius: 50%;
+
+
+
+}
+
+section#redes > a > img:hover{
+    border: solid 1px rgba(255, 255, 255, 0.251)
+    ;
+    box-sizing: border-box;
+
+
+}
+
+
 
 section#telefone{
     position: absolute;
@@ -44,3 +73,8 @@ section#telefone{
     
 }
 
+   
+
+
+
+            
