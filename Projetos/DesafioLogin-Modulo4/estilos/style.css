@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=PT+Mono&display=swap');
+
+
+
+/*
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.pt-mono-regular {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+}*/
+
+
+
+:root{/*paleta de cores*/
+
+--cor1: #B8D9B0;
+--cor2: #D1D99A;
+--cor3: #04BF8A;
+--cor4: #A6855D; 
+--cor4: #403C27;
+
+--fonte-padrao: "PT Mono", monospace; ;
+--fonte-style:"Indie Flower";
+  
+}
+body,html{
+  background-color:var(--cor1) ;
+  height:90vh;
+  width: 90vw;
+}
+
+main>section#login>div#imagem{
+  background: url(../imagens/pexels-cesar-o-neill-26650613-32886456.jpg) no-repeat;
+  display: block;
+  height: 200px;
+  background-size: cover;
+ border-top-right-radius: 10px;
+}
+
+main>section#login{
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+
+
+}
+
+main>section>div>p{
+    font-family:var(--fonte-style);
+    font-size: 1.3em;
+   color: var(--cor4);
+    
+    
+}
+
+main>section>div>p#login{
+    font-family:var(--fonte-padrao);
+    font-size: 1.3em;
+    color:var(--cor4)
+    
+}
+
+main>section>div>p#l7{
+    line-height: 10px;
+    
+}
+main>section>div>h1{
+    font-family: var(--fonte-padrao);
+    color:var(--cor4)
+    
+}
+a{
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+}
+a:hover{
+  color: var(--cor3);
+}
+
