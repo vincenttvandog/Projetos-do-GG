@@ -36,6 +36,16 @@ main>section#login>div#imagem{
    
 }
 
+form> div#sub > input[type=submit] {
+        width: 70%;
+       
+    }
+
+        div#cadastro{
+  
+  padding-left:220px;
+}
+
 @media screen and (min-width: 769px) and (max-width:1024px) /*Tablets (landscape), smaller laptops*/ {
     
      main>section#login{
@@ -43,18 +53,28 @@ main>section#login>div#imagem{
         
     } 
     
-
-
-
     main>section#login>div#imagem
 { float: left ;
     width: 30%;
     height: 100%;   }             
 
+
+form> div#sub > input[type=submit] {
+        width: 70%;
+       
+    }
+
 }
 
+div.redirecionar{
+padding: 5px;
+padding-left: 50px;
+text-align: center;}
 
-
+      div#cadastro{
+  
+  padding-left:130px;
+}
 
 @media screen and (min-width: 1025px) /*Desktop monitors, larger laptops*/ {
 
@@ -65,8 +85,25 @@ main>section#login>div#imagem{
 
     main>section#login>div#imagem
 { float: left ;
-    width: 50%;
+    width: 49%;
     height: 100%;   }             
+
+
+
+
+form> div#sub > input[type=submit] {
+        width: 50%;
+     
+    }
+
+div.redirecionar{
+padding: 5px;
+padding-left: 600px;
+text-align: center;}
+
+      div#cadastro{
+  
+  padding-left:700px;
 
 
 }

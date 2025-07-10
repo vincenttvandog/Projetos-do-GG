@@ -88,10 +88,40 @@ input{
 }
 div#sub{
   padding-top: 20px;
+  padding-left: 40px;
+ 
+}
+
+form > div#sub > input[type=submit]{
+  display: block;
+  text-align: center;
+  width: 80%;
+  height: 40px;
+  font-size: 1.1em;
+  background-color: #403c27cf
 }
 
 div.redirecionar{
 padding: 5px;
+padding-left: 0px;
+text-align: center;
+
+}
+
+div#cadastro{
+  
+  padding-left: 130px; /*130*/
+}
+
+
+ form >div.redirecionar >a.botao{
+  padding-top: 10px;
+ display: block;
+  text-align: center;
+  width: 69.5%;
+  height: 30px;
+  
+  
 
 
 }
@@ -99,9 +129,16 @@ padding: 5px;
 a{
   color: black;
   text-decoration: none;
-  margin-left: 10px;
+  
 }
+
+form >div.redirecionar >a#cadastro{
+  margin:0px;
+  font-size: 1.1em;
+}
+
 a:hover{
   color: var(--cor3);
 }
+
 
