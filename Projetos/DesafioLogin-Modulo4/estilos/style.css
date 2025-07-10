@@ -37,7 +37,8 @@ body,html{
   width: 90vw;
 }
 
-main>section#login>div#imagem{
+main > section#login > div#imagem{
+  margin-right: 10px;
   background: url(../imagens/pexels-cesar-o-neill-26650613-32886456.jpg) no-repeat;
   display: block;
   height: 200px;
@@ -45,45 +46,56 @@ main>section#login>div#imagem{
  border-top-right-radius: 10px;
 }
 
-main>section#login{
+main >section#login{
   background-color: white;
   width: 300px;
-  height: 500px;
+  height: 600px;
   position: absolute;
   top: 50%;
   left:50%;
   transform: translate(-50%,-50%);
   border-bottom-left-radius: 10px;
   border-top-right-radius: 10px;
-  
+  transition: width 1s, height 1s;
 
 
 }
+main > section > div > h1{
+    font-family: var(--fonte-padrao);
+    color:var(--cor4);
+   
+}
 
-main>section>div>p{
+main > section > div > p#login{
+    font-family:var(--fonte-padrao);
+    font-size: 1.3em;
+    color:var(--cor4);
+    padding-bottom: 10px;
+    
+    
+}
+
+main > section > div > p#l7{
+    line-height: 10px;
     font-family:var(--fonte-style);
     font-size: 1.3em;
    color: var(--cor4);
-    
-    
+ 
+}
+input{
+  border: 1px solid black;
+  
+}
+div#sub{
+  padding-top: 20px;
 }
 
-main>section>div>p#login{
-    font-family:var(--fonte-padrao);
-    font-size: 1.3em;
-    color:var(--cor4)
-    
+div.redirecionar{
+padding: 5px;
+
+
 }
 
-main>section>div>p#l7{
-    line-height: 10px;
-    
-}
-main>section>div>h1{
-    font-family: var(--fonte-padrao);
-    color:var(--cor4)
-    
-}
 a{
   color: black;
   text-decoration: none;
