@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/*Mobile	320px - 480px	Smartphones (portrait)
+Tablet	481px - 768px	Tablets (portrait), small laptops
+Small Desktop	769px - 1024px	Tablets (landscape), smaller laptops
+Large Desktop	1025px and up	Desktop monitors, larger laptops*/
+
+:root{/*paleta de cores*/
+
+--cor1: #B8D9B0;
+--cor2: #D1D99A;
+--cor3: #04BF8A;
+--cor4: #A6855D; 
+--cor4: #403C27;
+
+--fonte-padrao: "PT Mono", monospace; ;
+--fonte-style:"Indie Flower";
+  
+}
+
+
+
+
+@media screen and (min-width: 481px) and (max-width:768px)/*Tablets (portrait), small laptops*/ {
+
+    main>section#login{
+        width: 90%;
+        
+    } 
+    
+}
+
+main>section#login>div#imagem{
+    background-size: cover;
+    background-position: center top;
+    
+   
+}
+
+form> div#sub > input[type=submit] {
+        width: 70%;
+       
+    }
+
+        div#cadastro{
+  
+  padding-left:220px;
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) /*Tablets (landscape), smaller laptops*/ {
+    
+     main>section#login{
+        width: 90%;
+        
+    } 
+    
+    main>section#login>div#imagem
+{ float: left ;
+    width: 30%;
+    height: 100%;   }             
+
+
+form> div#sub > input[type=submit] {
+        width: 70%;
+       
+    }
+
+}
+
+div.redirecionar{
+padding: 5px;
+padding-left: 50px;
+text-align: center;}
+
+      div#cadastro{
+  
+  padding-left:130px;
+}
+
+@media screen and (min-width: 1025px) /*Desktop monitors, larger laptops*/ {
+
+ main>section#login{
+        width: 90%;
+        
+    } 
+
+    main>section#login>div#imagem
+{ float: left ;
+    width: 49%;
+    height: 100%;   }             
+
+
+
+
+form> div#sub > input[type=submit] {
+        width: 50%;
+     
+    }
+
+div.redirecionar{
+padding: 5px;
+padding-left: 600px;
+text-align: center;}
+
+      div#cadastro{
+  
+  padding-left:700px;
+
+
+      }}
