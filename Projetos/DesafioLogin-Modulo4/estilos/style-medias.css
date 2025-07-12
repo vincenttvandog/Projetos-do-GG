@@ -41,7 +41,10 @@ form> div#sub > input[type=submit] {
        
     }
 
-
+        div#cadastro{
+  
+  padding-left:220px;
+}
 
 @media screen and (min-width: 769px) and (max-width:1024px) /*Tablets (landscape), smaller laptops*/ {
     
@@ -63,6 +66,15 @@ form> div#sub > input[type=submit] {
 
 }
 
+div.redirecionar{
+padding: 5px;
+padding-left: 50px;
+text-align: center;}
+
+      div#cadastro{
+  
+  padding-left:130px;
+}
 
 @media screen and (min-width: 1025px) /*Desktop monitors, larger laptops*/ {
 
@@ -84,3 +96,14 @@ form> div#sub > input[type=submit] {
      
     }
 
+div.redirecionar{
+padding: 5px;
+padding-left: 600px;
+text-align: center;}
+
+      div#cadastro{
+  
+  padding-left:700px;
+
+
+}
