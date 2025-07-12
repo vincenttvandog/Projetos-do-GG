@@ -126,19 +126,6 @@ div#cadastro{
 
 }
 
-a{
-  color: black;
-  text-decoration: none;
-  
-}
 
-form >div.redirecionar >a#cadastro{
-  margin:0px;
-  font-size: 1.1em;
-}
-
-a:hover{
-  color: var(--cor3);
-}
 
 
