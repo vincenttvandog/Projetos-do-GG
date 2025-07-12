@@ -82,50 +82,6 @@ main > section > div > p#l7{
    color: var(--cor4);
  
 }
-input{
-  border: 1px solid black;
-  
-}
-div#sub{
-  padding-top: 20px;
-  padding-left: 40px;
- 
-}
-
-form > div#sub > input[type=submit]{
-  display: block;
-  text-align: center;
-  width: 80%;
-  height: 40px;
-  font-size: 1.1em;
-  background-color: #403c27cf
-}
-
-div.redirecionar{
-padding: 5px;
-padding-left: 0px;
-text-align: center;
-
-}
-
-div#cadastro{
-  
-  padding-left: 130px; /*130*/
-}
-
-
- form >div.redirecionar >a.botao{
-  padding-top: 10px;
- display: block;
-  text-align: center;
-  width: 69.5%;
-  height: 30px;
-  
-  
-
-
-}
-
 
 
 
