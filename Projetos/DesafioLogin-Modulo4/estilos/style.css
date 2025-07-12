@@ -70,7 +70,7 @@ main > section > div > p#login{
     font-family:var(--fonte-padrao);
     font-size: 1.3em;
     color:var(--cor4);
-    padding-bottom: 10px;
+    padding-bottom: 1px;
     
     
 }
