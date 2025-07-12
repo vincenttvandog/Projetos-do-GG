@@ -27,7 +27,7 @@ Large Desktop	1025px and up	Desktop monitors, larger laptops*/
         
     } 
     
-}
+
 
 main>section#login>div#imagem{
     background-size: cover;
@@ -41,10 +41,14 @@ form> div#sub > input[type=submit] {
        
     }
 
-        div#cadastro{
-  
-  padding-left:220px;
-}
+ div#sub{
+margin-top: 30px;
+  padding-left: 20vw;}
+ 
+
+
+ }
+
 
 @media screen and (min-width: 769px) and (max-width:1024px) /*Tablets (landscape), smaller laptops*/ {
     
@@ -56,25 +60,28 @@ form> div#sub > input[type=submit] {
     main>section#login>div#imagem
 { float: left ;
     width: 30%;
-    height: 100%;   }             
+    height: 100%;   
+ 
+}             
 
 
 form> div#sub > input[type=submit] {
-        width: 70%;
+        width: 35%;
+        margin-left: 25vw;
        
     }
 
-}
 
-div.redirecionar{
-padding: 5px;
-padding-left: 50px;
-text-align: center;}
 
-      div#cadastro{
-  
-  padding-left:130px;
-}
+
+ }
+
+
+
+
+
+
+
 
 @media screen and (min-width: 1025px) /*Desktop monitors, larger laptops*/ {
 
@@ -92,18 +99,14 @@ text-align: center;}
 
 
 form> div#sub > input[type=submit] {
-        width: 50%;
-     
+         width: 35%;
+        margin-left: 35vw;
+       
     }
 
-div.redirecionar{
-padding: 5px;
-padding-left: 600px;
-text-align: center;}
+    }
 
-      div#cadastro{
+
+
+}
   
-  padding-left:700px;
-
-
-      }}
