@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+:root{
+
+--cor1--:#809BA6 ;
+--cor2--:#80A7BF ;
+--cor3--:#255459 ;
+--cor4--:#0A2140 ;
+--cor5--:#4C591E ;
+
+
+}
+
+.conteiner{
+    display: grid;
+    grid-template-rows: 130px 50px 300px 50px;
+    grid-template-columns: 500px 500px ;
+
+
+
+}
+
